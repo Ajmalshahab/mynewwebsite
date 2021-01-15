@@ -33,12 +33,89 @@ nav ui {
     background-color: #0099cc;
   }
 
+/* This is where the main content of my website starts */
 main {
 text-align: center;
 background-color: darkblue;
 color: white;
 }
-aside {
+
+
+    /* This is the start of contact us*/
+    * {
+      box-sizing: border-box;
+    }
+    
+    form {
+      padding: 1em;
+      background: #f9f9f9;
+      border: 1px solid #c1c1c1;
+      margin-top: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1em;
+    }
+    form input {
+      margin-bottom: 1rem;
+      background: #fff;
+      border: 1px solid #9c9c9c;
+    }
+    form button {
+      background: lightgrey;
+      padding: 0.7em;
+      border: 0;
+    }
+    form button:hover {
+      background: gold;
+    }
+    
+    label {
+      text-align: center;
+      color: rgb(255, 0, 0);
+      display: block;
+      padding: 0.5em 1.5em 0.5em 0;
+    }
+
+    @media (min-width: 400px) {
+      form {
+        overflow: hidden;
+      }
+    
+    input {
+      width: 100%;
+      padding: 0.7em;
+      margin-bottom: 0.5rem;
+    }
+    input:focus {
+      outline: 3px solid gold;
+    }
+    
+    
+   input {
+        float: center;
+        width: calc(100% - 200px);
+      }
+
+     label {
+          float: left;
+          width: 200px;
+        }
+    
+  button {
+        float: center;
+        width: calc(100% - 200px);
+      }
+    }
+
+/* End of contact us page
+*/
+
+
+
+/*  This is where the side starts */
+ 
+ aside {
     background-color: #33b5e5;
     padding: 15px;
     color: #ffffff;
@@ -46,7 +123,11 @@ aside {
     font-size: 14px;
 ;}
 
-footer {
+
+
+/*  This is where my footer starts */
+
+ footer {
 background-color: darkgreen;
 color: white;
 }
