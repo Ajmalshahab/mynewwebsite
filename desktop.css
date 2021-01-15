@@ -1,3 +1,11 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    }
+
+
+
 body {
     display: grid;
     font-family: 'Poppins', sans-serif;
@@ -16,21 +24,45 @@ header {
     padding: 20px;
     grid-area: header;
     }
+
     nav {
-    background-color: yellow;
+   margin: 0 0 0 10px;
+
+    }
+    nav ui {
+   
     grid-area: nav;
     }
+
+    nav li {
+    margin: 3px;
+    list-style-type: none;
+    }
+
+    nav li:hover {
+    margin: 10px;
+    background-color: #0099cc;
+    }
     main {
-    background-color: darkblue;
+    text-align: center;
+    background-color: rgba(83, 0, 139, 0.514);
     color: white;
     grid-area: main;
     }
     aside {
     background-color: lightgreen;
     grid-area: aside;
-    }
+    background-color: #33b5e5;
+    padding: 14px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+ }
+
     footer {
     background-color: darkgreen;
     color: white;
     grid-area: footer;
     }
+
+
