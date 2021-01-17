@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     background-color: #259aaf;
+
     }
 
       
@@ -17,7 +18,6 @@ body {
      "footer footer footer";
      min-height: 100vh;    
 }
-
 
 
 
@@ -59,6 +59,15 @@ header {
    }
 
 
+   /* CSS For Portfolio page */
+
+   .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+
+
    /* This is where the CSS For CV page starts */
     
    .cv {
@@ -69,6 +78,23 @@ text-align: left;
 
     }
 
+    /* This is the CSS code for homepage   */
+
+    .Homepage {
+        text-align: center;
+            font-size: 18px;
+            color: black;
+            text-decoration: none;
+        
+            }
+
+      /* making the image responsive */
+      .responsive {
+        width: 100%;
+        height: auto;
+      }
+
+    
 
 
 /* all the heading three will have these features */
@@ -78,7 +104,7 @@ text-align: left;
         color: rgb(255, 255, 255);
         text-align: center;
     
-        }
+    }
 
 
 
@@ -87,6 +113,12 @@ text-align: left;
         box-sizing: border-box;
       }
       
+      form button {
+        background: lightgrey;
+        padding: 0.7em;
+        border: 0;
+      }
+
       form {
         padding: 1em;
         background: #f9f9f9;
@@ -97,21 +129,19 @@ text-align: left;
         margin-right: auto;
         padding: 1em;
       }
-      form input {
-        margin-bottom: 1rem;
-        background: #fff;
-        border: 1px solid #9c9c9c;
-      }
-      form button {
-        background: lightgrey;
-        padding: 0.7em;
-        border: 0;
-      }
+   
+     
 
 /*       When you hover ove the form box or the submit button you will see that it changes to gold */      
       
     form button:hover {
         background: gold;
+      }
+      
+      form input {
+        margin-bottom: 1rem;
+        background: #fff;
+        border: 1px solid #9c9c9c;
       }
       
       label {
@@ -153,8 +183,21 @@ text-align: left;
       }
 
 
+      .report {
+        text-align: left;
+            font-size: 18px;
+            color: black;
+            text-decoration: none;
+        
+            }
+        
+    
+    
+    /* This is the background images */
 
  
+
+
 /* End of contact us page
  */
     aside {
