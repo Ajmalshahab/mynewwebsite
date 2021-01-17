@@ -2,22 +2,24 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    background-color: #259aaf;
+
     }
 
 
 
 header {
 text-align: center;
-background-color: blue;
-color: rgb(248, 1, 1);
+color: rgb(255, 255, 255);
 padding: 20px;
+
 }
 
 
 
 nav {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     }
 
 
@@ -29,16 +31,43 @@ nav ui {
     list-style-type: none;
   }
 
+
+/* When you hover over the menu the background will change to white colour */
     nav li:hover {
-    background-color: #0099cc;
+    background-color: #ffffff;
   }
 
 /* This is where the main content of my website starts */
+
+
 main {
+
+padding: 20px;
 text-align: center;
-background-color: darkblue;
 color: white;
 }
+
+   /* This is where the CSS For CV page starts */
+    
+   .cv {
+    text-align: left;
+        font-size: 18px;
+        color: black;
+        text-decoration: none;
+    
+        }
+    
+    
+    
+    /* all the heading three will have these features */
+        h3 
+        {
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        
+            }
+    
 
 
     /* This is the start of contact us*/
@@ -72,7 +101,7 @@ color: white;
     
     label {
       text-align: center;
-      color: rgb(255, 0, 0);
+      color: rgb(255, 255, 255);
       display: block;
       padding: 0.5em 1.5em 0.5em 0;
     }
@@ -113,10 +142,9 @@ color: white;
 
 
 
-/*  This is where the side starts */
+/*  This is where the side bar starts */
  
  aside {
-    background-color: #33b5e5;
     padding: 15px;
     color: #ffffff;
     text-align: center;
@@ -128,6 +156,7 @@ color: white;
 /*  This is where my footer starts */
 
  footer {
-background-color: darkgreen;
 color: white;
+text-align: center;
+
 }

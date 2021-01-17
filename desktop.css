@@ -2,24 +2,28 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    background-color: #259aaf;
     }
 
-
+      
 
 body {
     display: grid;
     font-family: 'Poppins', sans-serif;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: auto;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas: "header header header"
     "nav main aside"
      "footer footer footer";
-    
+     min-height: 100vh;    
 }
+
+
+
+
 
 header {
     text-align: center;
-    background-color: blue;
     color: white;
     padding: 20px;
     grid-area: header;
@@ -35,20 +39,48 @@ header {
     }
 
     nav li {
+    font-size: large;
     margin: 3px;
     list-style-type: none;
     }
 
     nav li:hover {
     margin: 10px;
-    background-color: #0099cc;
     }
+
+
+    /* Here starts the main conent of the page  */
     main {
+    text-decoration: none;
     text-align: center;
-    background-color: rgba(83, 0, 139, 0.514);
     color: white;
     grid-area: main;
+
+   }
+
+
+   /* This is where the CSS For CV page starts */
+    
+   .cv {
+text-align: left;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+
     }
+
+
+
+/* all the heading three will have these features */
+    h3 
+    {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    
+        }
+
+
 
     /* This is the start of contact us*/
     * {
@@ -76,7 +108,7 @@ header {
         border: 0;
       }
 
-/*       When you hover ove the form box or the submit button you will see that it changes to yellow */      
+/*       When you hover ove the form box or the submit button you will see that it changes to gold */      
       
     form button:hover {
         background: gold;
@@ -84,7 +116,7 @@ header {
       
       label {
         text-align: center;
-        color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
         display: block;
         padding: 0.5em 1.5em 0.5em 0;
       }
@@ -120,12 +152,13 @@ header {
         }
       }
 
+
+
+ 
 /* End of contact us page
  */
     aside {
-    background-color: lightgreen;
     grid-area: aside;
-    background-color: #33b5e5;
     padding: 14px;
     color: #ffffff;
     font-size: 14px;
@@ -133,9 +166,9 @@ header {
  }
 
     footer {
-    background-color: darkgreen;
     color: white;
     grid-area: footer;
+
     }
 
 
